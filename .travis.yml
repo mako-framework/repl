@@ -3,13 +3,10 @@ language: php
 sudo: false
 
 matrix:
-    include:
+  include:
     - php: 7.0
     - php: 7.1
   fast_finish: true
-
-services:
-  - redis-server
 
 before_install:
   - travis_retry composer self-update
