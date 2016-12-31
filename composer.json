@@ -1,0 +1,26 @@
+{
+	"name": "mako/repl",
+	"keywords": ["mako", "framework", "repl"],
+	"homepage": "http://makoframework.com",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Frederic G. Østby",
+			"email": "frederic.g.ostby@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"mako\\repl\\": "src"
+		}
+	},
+	"require": {
+		"php": ">=7.0.0",
+		"psy/psysh": "^0.8.0"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
