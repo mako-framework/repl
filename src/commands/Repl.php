@@ -68,6 +68,11 @@ class Repl extends Command
 		$mako = new class
 		{
 			use ContainerAwareTrait;
+
+			public function getContainer()
+			{
+				return $this->container;
+			}
 		};
 
 		$mako->setContainer($this->container);
