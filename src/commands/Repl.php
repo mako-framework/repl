@@ -88,7 +88,7 @@ class Repl extends Command
 	 */
 	protected function buildConfiguration(): Configuration
 	{
-		$configuration = new Configuration;
+		$configuration = new Configuration($this->config->get('mako-repl::configuration'));
 
 		$configuration->addCasters(
 		[
