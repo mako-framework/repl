@@ -12,7 +12,7 @@ use mako\database\query\Result;
 use mako\database\query\ResultSet;
 use mako\reactor\Command;
 use mako\repl\Caster;
-use mako\syringe\ContainerAwareTrait;
+use mako\syringe\traits\ContainerAwareTrait;
 
 use Psy\Configuration;
 use Psy\Shell;
