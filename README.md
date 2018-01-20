@@ -1,5 +1,7 @@
 # Mako REPL
 
+[![Build Status](https://img.shields.io/travis/mako-framework/repl/master.svg?style=flat)](https://travis-ci.org/mako-framework/repl)
+
 ## Requirements
 
 Mako 5.0 or greater.
