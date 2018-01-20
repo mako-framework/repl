@@ -8,6 +8,10 @@ Mako 5.0 or greater.
 
 ## Installation
 
-1) Add the ```mako\repl\ReplPackage``` package to your ```app/config/application.php``` config file.
+1) Install the package using `composer`.
 
-2) Run ```php app/reactor repl``` to start the interactive shell.
+	composer require mako/repl
+
+2) Add the ```mako\repl\ReplPackage``` package to your ```app/config/application.php``` config file.
+
+3) Run ```php app/reactor repl``` to start the interactive shell.
