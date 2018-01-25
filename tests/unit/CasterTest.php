@@ -8,18 +8,22 @@
 namespace mako\repl\tests\unit;
 
 use Mockery;
-use PHPUnit_Framework_TestCase;
+use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 
 use mako\database\midgard\ORM;
 use mako\database\query\Result;
 use mako\database\query\ResultSet;
 use mako\repl\Caster;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @group unit
  */
-class CasterTest extends PHPUnit_Framework_TestCase
+class CasterTest extends TestCase
 {
+	use MockeryPHPUnitIntegration;
+
 	/**
 	 *
 	 */
