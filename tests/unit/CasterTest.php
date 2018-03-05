@@ -7,14 +7,12 @@
 
 namespace mako\repl\tests\unit;
 
-use Mockery;
-use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
-
 use mako\database\midgard\ORM;
 use mako\database\query\Result;
 use mako\database\query\ResultSet;
 use mako\repl\Caster;
-
+use Mockery;
+use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use PHPUnit\Framework\TestCase;
 
 /**
