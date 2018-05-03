@@ -42,8 +42,6 @@ class Repl extends Command
 
 	/**
 	 * Displays a helping message.
-	 *
-	 * @access protected
 	 */
 	protected function displayHelp()
 	{
@@ -59,7 +57,6 @@ class Repl extends Command
 	/**
 	 * Returns a container aware class.
 	 *
-	 * @access protected
 	 * @return object
 	 */
 	protected function getMako()
@@ -82,7 +79,6 @@ class Repl extends Command
 	/**
 	 * Builds the shell configuration.
 	 *
-	 * @access protected
 	 * @return \Psy\Configuration
 	 */
 	protected function buildConfiguration(): Configuration
@@ -101,8 +97,6 @@ class Repl extends Command
 
 	/**
 	 * Starts the interactive shell.
-	 *
-	 * @access protected
 	 */
 	protected function startShell()
 	{
@@ -118,8 +112,6 @@ class Repl extends Command
 
 	/**
 	 * Executes the command.
-	 *
-	 * @access public
 	 */
 	public function execute()
 	{

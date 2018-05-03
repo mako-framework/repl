@@ -21,7 +21,6 @@ class Caster
 	/**
 	 * Casts ORM to array.
 	 *
-	 * @access public
 	 * @param  \mako\database\midgard\ORM $orm ORM
 	 * @return array
 	 */
@@ -33,7 +32,6 @@ class Caster
 	/**
 	 * Casts result to array.
 	 *
-	 * @access public
 	 * @param  \mako\database\query\Result $result Result
 	 * @return array
 	 */
@@ -45,7 +43,6 @@ class Caster
 	/**
 	 * Casts result set to array.
 	 *
-	 * @access public
 	 * @param  \mako\database\query\ResultSet $resultSet Result set
 	 * @return array
 	 */
