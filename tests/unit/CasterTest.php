@@ -25,7 +25,7 @@ class CasterTest extends TestCase
 	/**
 	 *
 	 */
-	public function testOrm()
+	public function testOrm(): void
 	{
 		$orm = Mockery::mock(ORM::class);
 
@@ -37,7 +37,7 @@ class CasterTest extends TestCase
 	/**
 	 *
 	 */
-	public function testResult()
+	public function testResult(): void
 	{
 		$result = Mockery::mock(Result::class);
 
@@ -49,7 +49,7 @@ class CasterTest extends TestCase
 	/**
 	 *
 	 */
-	public function testResultSet()
+	public function testResultSet(): void
 	{
 		$resultSet = Mockery::mock(ResultSet::class);
 
