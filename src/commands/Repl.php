@@ -43,7 +43,7 @@ class Repl extends Command
 	/**
 	 * Displays a helping message.
 	 */
-	protected function displayHelp()
+	protected function displayHelp(): void
 	{
 		$message  = '----------------------------------------------';
 		$message .= PHP_EOL;
@@ -98,7 +98,7 @@ class Repl extends Command
 	/**
 	 * Starts the interactive shell.
 	 */
-	protected function startShell()
+	protected function startShell(): void
 	{
 		$shell = new Shell($this->buildConfiguration());
 
@@ -113,7 +113,7 @@ class Repl extends Command
 	/**
 	 * Executes the command.
 	 */
-	public function execute()
+	public function execute(): void
 	{
 		$this->displayHelp();
 
