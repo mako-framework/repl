@@ -1,30 +1,31 @@
 {
-	"name": "mako/repl",
-	"keywords": ["mako", "framework", "repl"],
-	"homepage": "http://makoframework.com",
-	"license": "BSD-3-Clause",
-	"authors": [
-		{
-			"name": "Frederic G. Østby",
-			"email": "frederic.g.ostby@gmail.com"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"mako\\repl\\": "src"
-		}
-	},
-	"require": {
-		"php": ">=7.2.0",
-		"psy/psysh": "^0.9.9"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "^8.0",
-		"mockery/mockery": "^1.2"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "2.1-dev"
-		}
-	}
+    "name": "mako/repl",
+    "description": "A REPL for the Mako Framework",
+    "keywords": ["mako", "framework", "repl"],
+    "homepage": "http://makoframework.com",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Frederic G. Østby",
+            "email": "frederic.g.ostby@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mako\\repl\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "psy/psysh": "^0.9.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1-dev"
+        }
+    }
 }
