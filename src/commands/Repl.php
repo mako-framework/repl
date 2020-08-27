@@ -24,21 +24,9 @@ use Psy\Shell;
 class Repl extends Command
 {
 	/**
-	 * Make the command strict.
-	 *
-	 * @var bool
+	 * {@inheritDoc}
 	 */
-	protected $isStrict = true;
-
-	/**
-	 * Command information.
-	 *
-	 * @var array
-	 */
-	protected $commandInformation =
-	[
-		'description' => 'Starts a interactive shell.',
-	];
+	protected $description = 'Starts a interactive shell.';
 
 	/**
 	 * Displays a helping message.
