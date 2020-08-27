@@ -1,6 +1,6 @@
-language: php
+os: linux
 
-sudo: false
+language: php
 
 jobs:
   fast_finish: true
