@@ -1,6 +1,6 @@
 # Mako REPL
 
-[![Build Status](https://img.shields.io/travis/mako-framework/repl/master.svg?style=flat)](https://travis-ci.org/mako-framework/repl)
+[![Build Status](https://github.com/mako-framework/repl/workflows/Tests/badge.svg)](https://github.com/mako-framework/repl/actions?query=workflow%3ATests)
 
 ## Requirements
 
