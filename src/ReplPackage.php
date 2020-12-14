@@ -17,12 +17,12 @@ use mako\application\Package;
 class ReplPackage extends Package
 {
 	/**
-	 * {@inheritdoc}
+	 * {@inheritDoc}
 	 */
 	protected $packageName = 'mako/repl';
 
 	/**
-	 * {@inheritdoc}
+	 * {@inheritDoc}
 	 */
 	protected $commands =
 	[
