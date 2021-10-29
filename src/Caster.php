@@ -13,8 +13,6 @@ use mako\database\query\ResultSet;
 
 /**
  * Caster.
- *
- * @author Frederic G. Østby
  */
 class Caster
 {

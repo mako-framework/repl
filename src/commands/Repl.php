@@ -18,8 +18,6 @@ use Psy\Shell;
 
 /**
  * Command that starts a interactive shell.
- *
- * @author Frederic G. Østby
  */
 class Repl extends Command
 {

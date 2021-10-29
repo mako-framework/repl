@@ -11,8 +11,6 @@ use mako\application\Package;
 
 /**
  * Repl package.
- *
- * @author  Frederic G. Østby
  */
 class ReplPackage extends Package
 {
@@ -26,6 +24,6 @@ class ReplPackage extends Package
 	 */
 	protected $commands =
 	[
-		'repl' => 'mako\repl\commands\Repl',
+		'repl' => mako\repl\commands\Repl::class,
 	];
 }
