@@ -8,6 +8,7 @@
 namespace mako\repl;
 
 use mako\application\Package;
+use mako\repl\commands\Repl;
 
 /**
  * Repl package.
@@ -24,6 +25,6 @@ class ReplPackage extends Package
 	 */
 	protected $commands =
 	[
-		'repl' => mako\repl\commands\Repl::class,
+		'repl' => Repl::class,
 	];
 }
