@@ -1,6 +1,7 @@
 # Mako REPL
 
 [![Build Status](https://github.com/mako-framework/repl/workflows/Tests/badge.svg)](https://github.com/mako-framework/repl/actions?query=workflow%3ATests)
+[![Static analysis](https://github.com/mako-framework/repl/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/mako-framework/repl/actions/workflows/static-analysis.yml)
 
 ## Requirements
 
