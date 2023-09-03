@@ -24,7 +24,7 @@ class Repl extends Command
 	/**
 	 * {@inheritDoc}
 	 */
-	protected $description = 'Starts a interactive shell.';
+	protected string $description = 'Starts a interactive shell.';
 
 	/**
 	 * Displays a helping message.
@@ -42,10 +42,8 @@ class Repl extends Command
 
 	/**
 	 * Returns a container aware class.
-	 *
-	 * @return object
 	 */
-	protected function getMako()
+	protected function getMako(): object
 	{
 		$mako = new class
 		{
@@ -64,8 +62,6 @@ class Repl extends Command
 
 	/**
 	 * Builds the shell configuration.
-	 *
-	 * @return \Psy\Configuration
 	 */
 	protected function buildConfiguration(): Configuration
 	{

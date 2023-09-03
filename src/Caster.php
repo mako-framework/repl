@@ -18,9 +18,6 @@ class Caster
 {
 	/**
 	 * Casts ORM to array.
-	 *
-	 * @param  \mako\database\midgard\ORM $orm ORM
-	 * @return array
 	 */
 	public static function orm(ORM $orm): array
 	{
@@ -29,9 +26,6 @@ class Caster
 
 	/**
 	 * Casts result to array.
-	 *
-	 * @param  \mako\database\query\Result $result Result
-	 * @return array
 	 */
 	public static function result(Result $result): array
 	{
@@ -40,9 +34,6 @@ class Caster
 
 	/**
 	 * Casts result set to array.
-	 *
-	 * @param  \mako\database\query\ResultSet $resultSet Result set
-	 * @return array
 	 */
 	public static function resultSet(ResultSet $resultSet): array
 	{

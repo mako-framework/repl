@@ -18,12 +18,12 @@ class ReplPackage extends Package
 	/**
 	 * {@inheritDoc}
 	 */
-	protected $packageName = 'mako/repl';
+	protected string $packageName = 'mako/repl';
 
 	/**
 	 * {@inheritDoc}
 	 */
-	protected $commands =
+	protected array $commands =
 	[
 		'repl' => Repl::class,
 	];
