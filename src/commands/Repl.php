@@ -45,8 +45,7 @@ class Repl extends Command
 	 */
 	protected function getMako(): object
 	{
-		$mako = new class
-		{
+		$mako = new class {
 			use ContainerAwareTrait;
 
 			public function getContainer()
@@ -67,8 +66,7 @@ class Repl extends Command
 	{
 		$configuration = new Configuration($this->config->get('mako-repl::configuration'));
 
-		$configuration->addCasters
-		([
+		$configuration->addCasters([
 			ORM::class       => Caster::class . '::orm',
 			Result::class    => Caster::class . '::result',
 			ResultSet::class => Caster::class . '::resultSet',
@@ -84,8 +82,7 @@ class Repl extends Command
 	{
 		$shell = new Shell($this->buildConfiguration());
 
-		$shell->setScopeVariables
-		([
+		$shell->setScopeVariables([
 			'mako' => $this->getMako(),
 		]);
 

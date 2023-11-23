@@ -23,8 +23,7 @@ class ReplPackage extends Package
 	/**
 	 * {@inheritDoc}
 	 */
-	protected array $commands =
-	[
+	protected array $commands = [
 		'repl' => Repl::class,
 	];
 }
