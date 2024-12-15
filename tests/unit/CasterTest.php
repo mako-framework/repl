@@ -13,11 +13,10 @@ use mako\database\query\ResultSet;
 use mako\repl\Caster;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
+use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @group unit
- */
+#[Group('unit')]
 class CasterTest extends TestCase
 {
 	use MockeryPHPUnitIntegration;

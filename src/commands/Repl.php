@@ -10,6 +10,7 @@ namespace mako\repl\commands;
 use mako\database\midgard\ORM;
 use mako\database\query\Result;
 use mako\database\query\ResultSet;
+use mako\reactor\attributes\CommandDescription;
 use mako\reactor\Command;
 use mako\repl\Caster;
 use mako\syringe\traits\ContainerAwareTrait;
@@ -19,13 +20,9 @@ use Psy\Shell;
 /**
  * Command that starts a interactive shell.
  */
+#[CommandDescription('Starts a interactive shell.')]
 class Repl extends Command
 {
-	/**
-	 * {@inheritDoc}
-	 */
-	protected string $description = 'Starts a interactive shell.';
-
 	/**
 	 * Displays a helping message.
 	 */
