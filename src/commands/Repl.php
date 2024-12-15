@@ -7,6 +7,7 @@
 
 namespace mako\repl\commands;
 
+use mako\cli\output\components\Alert;
 use mako\database\midgard\ORM;
 use mako\database\query\Result;
 use mako\database\query\ResultSet;
@@ -28,13 +29,9 @@ class Repl extends Command
 	 */
 	protected function displayHelp(): void
 	{
-		$message  = '----------------------------------------------';
-		$message .= PHP_EOL;
-		$message .= 'Type <yellow>help</yellow> to see a list of available commands.';
-		$message .= PHP_EOL;
-		$message .= '----------------------------------------------';
-
-		$this->write($message);
+		$this->nl();
+		$this->alert('Type <bg_white> help </bg_white> to see a list of available commands.', Alert::INFO);
+		$this->nl();
 	}
 
 	/**
