@@ -20,14 +20,14 @@
         "psy/psysh": "^0.12.7"
     },
     "require-dev": {
-        "mako/framework": "^11.0.0",
+        "mako/framework": "^12.0.0@dev",
         "mockery/mockery": "^1.6.12",
-        "phpstan/phpstan": "^2.0.3",
-        "phpunit/phpunit": "^11.5.1"
+        "phpstan/phpstan": "^2.1.33",
+        "phpunit/phpunit": "^12.5.4"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "7.1-dev"
+            "dev-master": "8.0-dev"
         }
     },
     "scripts": {
