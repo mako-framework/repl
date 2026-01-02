@@ -16,8 +16,8 @@
         }
     },
     "require": {
-        "php": ">=8.4.0",
-        "psy/psysh": "^0.12.7"
+        "php": ">=8.5.0",
+        "psy/psysh": "^0.12.18"
     },
     "require-dev": {
         "mako/framework": "^12.0.0@dev",
