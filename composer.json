@@ -20,7 +20,7 @@
         "psy/psysh": "^0.12.18"
     },
     "require-dev": {
-        "mako/framework": "^12.0.0@dev",
+        "mako/framework": "^12.0.0",
         "mockery/mockery": "^1.6.12",
         "phpstan/phpstan": "^2.1.33",
         "phpunit/phpunit": "^12.5.4"
