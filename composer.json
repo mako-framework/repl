@@ -17,17 +17,22 @@
     },
     "require": {
         "php": ">=8.5.0",
-        "psy/psysh": "^0.12.19"
+        "mako/framework": "^12.0|^13.0",
+        "psy/psysh": "^0.12.24"
     },
     "require-dev": {
-        "mako/framework": "^12.0.0",
-        "mockery/mockery": "^1.6.12",
-        "phpstan/phpstan": "^2.1.33",
-        "phpunit/phpunit": "^12.5.4"
+        "mockery/mockery": "^1.6",
+        "phpstan/phpstan": "^2.3",
+        "phpunit/phpunit": "^13.4"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "8.1-dev"
+            "dev-master": "9.0-dev"
+        },
+        "mako": {
+            "publish": {
+                "config": true
+            }
         }
     },
     "scripts": {
